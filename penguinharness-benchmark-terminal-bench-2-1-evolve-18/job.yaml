@@ -1,0 +1,24 @@
+# Run from the data repository root after initializing the upstream submodule.
+n_attempts: 1
+n_concurrent_trials: 4
+agents:
+  - name: nop
+tasks:
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/build-cython-ext
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/build-pmars
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/code-from-image
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/configure-git-webserver
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/constraints-scheduling
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/custom-memory-heap-crash
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/financial-document-processor
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/fix-code-vulnerability
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/fix-git
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/gcode-to-text
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/headless-terminal
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/openssl-selfsigned-cert
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/pypi-server
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/query-optimize
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/sam-cell-seg
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/schemelike-metacircular-eval
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/torch-pipeline-parallelism
+  - path: penguinharness-benchmark-terminal-bench-2-1-evolve-18/tasks/vulnerable-secret
